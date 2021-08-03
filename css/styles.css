@@ -877,16 +877,17 @@ a:hover.back-to-top {
 
 .cards-2 .price-box {
 	position: absolute;
-	top: -6.375rem;
+	top: -4.375rem;
 	right: 2.25rem;
-	width: 4.25rem;
-	height: 4.25rem;
-	border-radius: 50%;
-	background-color: #0799c7;
+	width: 7rem;
+	height: 2.5rem;
+	border: 0.125rem solid #4c2a8e;
+	border-radius: 2rem;
+	background-color: #4c2a8e;
 	color: #fff;
-	font-weight: 700;
-	font-size: 1.25rem;
-	line-height: 4.25rem;
+	font: 700 0.85rem/0 "Raleway", sans-serif;
+	line-height: 2.25rem;
+
 }
 
 .cards-2 .card-title {
