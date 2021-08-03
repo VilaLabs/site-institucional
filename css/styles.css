@@ -507,13 +507,13 @@ input[type='checkbox'] {
 }
 
 .spinner .bounce1 {
-	-webkit-animation-delay: -0.32s;
-	animation-delay: -0.32s;
+	-webkit-animation-delay: -0.008s;
+	animation-delay: -0.008s;
 }
 
 .spinner .bounce2 {
-	-webkit-animation-delay: -0.16s;
-	animation-delay: -0.16s;
+	-webkit-animation-delay: -0.004s;
+	animation-delay: -0.004s;
 }
 
 @-webkit-keyframes sk-bouncedelay {
@@ -841,6 +841,7 @@ a:hover.back-to-top {
 	margin-right: auto;
 	margin-bottom: 5rem;
 	margin-left: auto;
+	margin-top: 10px;
 	border: none;
 	background: transparent;
 	text-align: center;
@@ -855,7 +856,7 @@ a:hover.back-to-top {
 	margin-right: auto;
 	margin-bottom: 2rem;
 	margin-left: auto;
-	border-radius: 50%;
+	
 }
 
 .cards-2 .card-image img {
@@ -877,14 +878,14 @@ a:hover.back-to-top {
 
 .cards-2 .price-box {
 	position: absolute;
-	top: -4.375rem;
+	top: -3rem;
 	right: 2.25rem;
 	width: 7rem;
 	height: 2.5rem;
-	border: 0.125rem solid #4c2a8e;
+	border: 0.125rem solid #c6ff00;
 	border-radius: 2rem;
-	background-color: #4c2a8e;
-	color: #fff;
+	background-color: #c6ff00;
+	color: #000;
 	font: 700 0.85rem/0 "Raleway", sans-serif;
 	line-height: 2.25rem;
 
