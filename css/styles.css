@@ -545,8 +545,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.4375rem;
-	height: 2rem;
+    width: 14rem;
+	height: 6rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -741,7 +741,7 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .fas {
-	color: #00bfd8;
+	color: #c6ff00;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -762,7 +762,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #00bfd8;
+	color: #c6ff00;
 	transition: all 0.2s ease;
 }
 
@@ -771,7 +771,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00a7bd;
+    color: #c6ff00;
 }
 
 
@@ -904,12 +904,12 @@ a:hover.back-to-top {
 }
 
 .cards-2 .fa-stack .fa-stack-2x {
-	color: #04d89f;
+	color: #c6ff00;
 	transition: all 0.2s ease;
 }
 
 .cards-2 .fa-stack:hover .fa-stack-2x {
-	color: #0799c7;
+	color: #353f42;
 }
 
 .cards-2 .fa-stack .fa-stack-1x {
@@ -1539,37 +1539,37 @@ input[type='checkbox'] {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #00bfd8;
+		color: #c6ff00;
 		transition: all 0.2s ease;
 	}
 	
 	.navbar-custom .fa-stack-1x {
-		color: #fff;
+		color: #000;
 		transition: all 0.2s ease;
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-2x {
-		color: #fff;
+		color: #000;
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00bfd8;
+		color: #c6ff00;
 	}
 
 	.navbar-custom.top-nav-collapse .fa-stack-2x {
-		color: #00bfd8;
+		color: #c6ff00;
 	}
 	
 	.navbar-custom.top-nav-collapse .fa-stack-1x {
-		color: #fff;
+		color: #000;
 	}
 
 	.navbar-custom.top-nav-collapse .fa-stack:hover .fa-stack-2x {
-		color: #00a7bd;
+		color: #c6ff00;
 	}
 	
 	.navbar-custom.top-nav-collapse .fa-stack:hover .fa-stack-1x {
-		color: #fff;
+		color: #000;
 	}
 	/* end of navigation */
 
@@ -1583,7 +1583,7 @@ input[type='checkbox'] {
 
 	/* Header */
 	.header {
-		background: url('../images/header-background.jpg') center center no-repeat;
+		background: url('../images/header-bg.jpg') center center no-repeat;
 		background-size: cover; 
 	}
 
