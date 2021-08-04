@@ -698,7 +698,7 @@ input[type='checkbox'] {
 
 .form h2 {
 	margin-bottom: 0.75rem;
-	color: #7f2778;
+	color: #4c2a8e;
 }
 
 .form h2,
@@ -758,7 +758,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #fff;
+    color: #000;
 	transition: all 0.2s ease;
 }
 
@@ -768,7 +768,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #fff;
+	color: #000;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
@@ -955,7 +955,7 @@ a:hover.back-to-top {
 }
 
 .versions .version-title a:hover {
-	color: #ff4587;
+	color: #c6ff00;
 }
 
 
@@ -981,7 +981,7 @@ a:hover.back-to-top {
 	}
 	
 	.versions .version-cell:hover p.version-title a {
-		color: #e4103d;
+		color: #c6ff00;
 	}
 	/* end of image gallery hover animation */
 	/* end of versions */	/* Versions */
@@ -1006,7 +1006,7 @@ a:hover.back-to-top {
 	}
 	
 	.versions .version-cell:hover p.version-title a {
-		color: #e4103d;
+		color: #c6ff00;
 	}
 	/* end of image gallery hover animation */
 	/* end of versions */
@@ -1034,7 +1034,7 @@ a:hover.back-to-top {
 	}
 	
 	.versions .version-cell:hover p.version-title a {
-		color: #e4103d;
+		color: #c6ff00;
 	}
 	/* end of image gallery hover animation */
 	/* end of versions */
@@ -1050,7 +1050,7 @@ a:hover.back-to-top {
 }
 
 .basic-7 {
-	padding-top: 7rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
 	text-align: center;
 }
@@ -1310,10 +1310,10 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 40%;
 	height: 3.125rem;
-	border: 0.125rem solid #ef4a73;
+	border: 0.125rem solid #c6ff00;
 	border-radius: 1.5rem;
-	background-color: #ef4a73;
-	color: #fff;
+	background-color: #c6ff00;
+	color: #000;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
@@ -1321,7 +1321,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #ef4a73;
+	color: #c6ff00;
 }
 
 .header form {
@@ -1388,38 +1388,7 @@ input[type='checkbox'] {
 	/* end of customers */
 
 
-	/* Video */
-	.basic-3 p {
-		width: 85%;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	/* end of video */
 
-
-	/* Testimonials */
-	.slider-2 .slider-container {
-		width: 70%;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	.slider-2 .swiper-container {
-		width: 85%;
-	}
-
-	.slider-2 .swiper-button-prev {
-		left: 1rem;
-		width: 1.375rem;
-		background-size: 1.375rem 2.125rem;
-	}
-	
-	.slider-2 .swiper-button-next {
-		right: 1rem;
-		width: 1.375rem;
-		background-size: 1.375rem 2.125rem;
-	}
-	/* end of testimonials */
 
 
 	/* About */
@@ -1586,7 +1555,7 @@ input[type='checkbox'] {
 
 	/* Header */
 	.header {
-		background: url('../images/header-bg.jpg') center center no-repeat;
+		background: url('../images/header-bg.svg') center center no-repeat;
 		background-size: cover; 
 	}
 
