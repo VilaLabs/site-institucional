@@ -698,7 +698,7 @@ input[type='checkbox'] {
 
 .form h2 {
 	margin-bottom: 0.75rem;
-	color: #4c2a8e;
+	color: #393939;
 }
 
 .form h2,
@@ -1475,7 +1475,7 @@ input[type='checkbox'] {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00bfd8;
+		color: #4c2a8e;
 	}
 
 	.navbar-custom .dropdown-menu {
