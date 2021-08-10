@@ -10,12 +10,12 @@
 	
 	/* Preloader */
 	$(window).on('load', function() {
-		var preloaderFadeOutTime = 500;
+		var preloaderFadeOutTime = 200;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
 				preloader.fadeOut(preloaderFadeOutTime);
-			}, 500);
+			}, 200);
 		}
 		hidePreloader();
 	});
@@ -84,48 +84,6 @@
     });
 
 
-
-/* Inquiry Form */
-$("#inquiryForm").validator().on("submit", function(event) {
-    if (event.isDefaultPrevented()) {
-        // handle the invalid form...
-        iformError();
-        isubmitMSG(false, "Preencha todos os campos!");
-    } else {
-        // everything looks good!
-        event.preventDefault();
-        isubmitForm();
-    }
-});
-
-function isubmitForm() {
-    // initiate variables with form content
-    var name = $("#iname").val();
-    var eail = $("#iemail").val();
-    var message = $("#imessage").val();
-    window.open(`https://api.whatsapp.com/send?l=pt-BR&phone=5516993791052${name}%20${email}%20${message}`)
-}
-
-function iformSuccess() {
-    $("#inquiryForm")[0].reset();
-    isubmitMSG(true, "Mensagem Enviada!");
-    $("input").removeClass('notEmpty'); // resets the field label after submission
-}
-
-function iformError() {
-    $("#inquiryForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-        $(this).removeClass();
-    });
-}
-
-function isubmitMSG(valid, msg) {
-    if (valid) {
-        var msgClasses = "h3 text-center tada animated";
-    } else {
-        var msgClasses = "h3 text-center";
-    }
-    $("#imsgSubmit").removeClass().addClass(msgClasses).text(msg);
-}
 
 
     /* Card Slider - Swiper */
@@ -208,3 +166,19 @@ function isubmitMSG(valid, msg) {
 
     
 })(jQuery);
+
+function Enviar(){
+    let nome = document.getElementById("nomeid");
+    let email = document.getElementById("emailid");
+    let mensagem = document.getElementById("mensagemid");
+
+    if(nome.value != "" & email.value != "" & mensagem.value != ""){
+        window.open(`https://api.whatsapp.com/send?phone=5516993791052&text=Olá%20meu%20nome%20%C3%A9%20${nome.value}%20meu%20email%20para%20contato%20%C3%A9%20${email.value}%20e%20desejo%20${mensagem.value}`);
+    } else if (nome.value != "" & email.value != ""){
+        window.open(`https://api.whatsapp.com/send?phone=5516993791052&text=Olá%20meu%20nome%20%C3%A9%20${nome.value}%20meu%20email%20para%20contato%20%C3%A9%20${email.value}%20e%20desejo%20saber%20mais%20sobre%20a%20VilaLabs`);
+
+    }else if(nome.value != ""){
+        window.open(`https://api.whatsapp.com/send?phone=5516993791052&text=Olá%20meu%20nome%20%C3%A9%20${nome.value}%20e%20desejo%20saber%20mais%20sobre%20a%20VilaLabs`);
+    }
+    
+}
