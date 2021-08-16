@@ -1,21 +1,14 @@
-/* Template: Evolo - StartUp HTML Landing Page Template
-   Author: Inovatik
-   Created: June 2019
-   Description: Custom JS file
-*/
-
-
 (function($) {
     "use strict"; 
 	
 	/* Preloader */
 	$(window).on('load', function() {
-		var preloaderFadeOutTime = 200;
+		var preloaderFadeOutTime = 500;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
 				preloader.fadeOut(preloaderFadeOutTime);
-			}, 200);
+			}, 500);
 		}
 		hidePreloader();
 	});

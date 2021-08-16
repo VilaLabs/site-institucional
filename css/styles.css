@@ -522,18 +522,18 @@ input[type='checkbox'] {
 	height: 1rem;
 	border-radius: 100%;
 	background-color: #4c2a8e;
-	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	-webkit-animation: sk-bouncedelay 1s infinite ease-in-out both;
+	animation: sk-bouncedelay 1s infinite ease-in-out both;
 }
 
 .spinner .bounce1 {
-	-webkit-animation-delay: -0.008s;
-	animation-delay: -0.008s;
+	-webkit-animation-delay: -0.75s;
+	animation-delay: -0.12s;
 }
 
 .spinner .bounce2 {
-	-webkit-animation-delay: -0.004s;
-	animation-delay: -0.004s;
+	-webkit-animation-delay: -0.75s;
+	animation-delay: -0.12s;
 }
 
 @-webkit-keyframes sk-bouncedelay {
@@ -1575,7 +1575,7 @@ input[type='checkbox'] {
 
 	/* Header */
 	.header {
-		background: url('../images/header-bg.svg') center center no-repeat;
+		background: url('../images/header-bg.jpg') center center no-repeat;
 		background-size: cover; 
 	}
 
